@@ -1,65 +1,102 @@
-# Sorting App
+# Learning GitHub: Practice Repository
 
-This repository is for the Sorting App project. Below are the steps to clone the project, create a branch, and push changes.
+This repository is for practicing and learning GitHub commands. Below are the steps and commands used for cloning the project, creating branches, and pushing changes.
 
-## Cloning the Repository
+## Basic Git Commands
 
-1. Clone the repository from GitHub:
+### 1. Cloning the Repository
+
+- Clone the repository from GitHub:
     ```sh
-    git clone https://github.com/sajibsd013/Sorting-App.git
+    git clone https://github.com/yourusername/dummy-repository.git
     ```
 
-2. Navigate to the project directory:
+- Navigate to the project directory:
     ```sh
-    cd sorting-app
+    cd dummy-repository
     ```
 
-3. Open the project in your code editor:
+- Open the project in your code editor:
     ```sh
     code .
     ```
 
-## Making Changes
+### 2. Adding and Committing Changes
 
-1. Add your changes to the staging area:
+- Add your changes to the staging area:
     ```sh
     git add .
     ```
 
-2. Commit your changes with a message:
+- Commit your changes with a message:
     ```sh
     git commit -m "message"
     ```
 
-3. Push your changes to the main branch:
+### 3. Pushing Changes
+
+- Push your changes to the remote repository:
     ```sh
     git push
     ```
 
-## Creating a New Branch
+### 4. Branching
 
-1. Create a new branch:
+#### Creating a New Branch
+
+- Create a new branch:
     ```sh
     git checkout -b test
     ```
 
-2. Push the new branch to the remote repository:
+- Push the new branch to the remote repository:
     ```sh
     git push --set-upstream origin test
     ```
 
+#### Checking Out an Existing Branch
+
+- Check out an existing branch:
+    ```sh
+    git checkout branch-name
+    ```
+
+#### Listing Branches
+
+- List all branches:
+    ```sh
+    git branch
+    ```
+
 ## Deployment
 
-1. Go to the repository settings.
-2. Navigate to the "Pages" section.
-3. Select the branch you want to deploy from.
-4. Deploy your project.
+- Go to the repository settings.
+- Navigate to the "Pages" section.
+- Select the branch you want to deploy from.
+- Deploy your project.
 
 ## Cloning a Project from GitHub to Local
 
-1. Clone the repository:
+- Clone the repository:
     ```sh
     git clone <repository-url>
+    ```
+
+## Additional Git Commands
+
+- Initialize a new Git repository:
+    ```sh
+    git init
+    ```
+
+- Check the status of your files in the working directory and staging area:
+    ```sh
+    git status
+    ```
+
+- View the commit history:
+    ```sh
+    git log
     ```
 
 ## Additional Information
@@ -69,4 +106,3 @@ For more detailed instructions and information, please refer to the documentatio
 ## License
 
 This project is licensed under the MIT License.
-
