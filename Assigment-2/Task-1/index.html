@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week2 Assigment</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <h1>LoGo</h1>
+    </div>
+    <ul id="menulist">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="">Product</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+    <div class="menu-icon">
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+  </nav>
+
+  <section class="home-section" id="home">
+    <div>
+    <div class="home-img">
+      <img src="/images/top-view-agendas-succlent-plant.jpg" alt="" ></div>
+    
+     <div class="content">
+      <h2>Hello...</h2>
+      <p>Welcome to my website. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, accusantium? </p>
+     </div>
+     <div class="about-part" id="about">
+      <H1>About ME</H1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, aut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore molestiae corporis corrupti ex. Accusantium iste distinctio dolores, tempore vitae labore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium suscipit cupiditate harum iusto ea aut esse perspiciatis explicabo eligendi corporis? </p>
+     </div>
+    </div>
+
+  </section>
+  <section class="Project" id="project">
+    <h1>Projects</h1>
+
+    <div class="projects-name">
+      <div class="project-content">
+        <p>Project Number 1</p>
+      </div>
+        <div class="project-content">
+        <p>Project Number 2</p>
+        </div>
+        <div class="project-content">
+          <p>Project Number 3</p>
+        </div>
+        <div class="project-content">
+          <p>Project Number 4</h2>
+        </div>
+        <div class="project-content">
+          <p>Project Number 5</p>
+        </div>
+        <div class="project-content">
+          <p>Project Number 6</p>
+        </div>
+      
+    </div>
+
+  </section>
+  <footer>
+    <p>&copy; 2024 My Webpage</p>
+</footer>
+  <script>
+     let menulist = document.getElementById("menulist");
+    menulist.style.maxHeight = "0px";
+
+    function toggleMenu() {
+      if (menulist.style.maxHeight == "0px") {
+        menulist.style.maxHeight = "300px";
+      } else {
+        menulist.style.maxHeight = "0px";
+      }
+    }
+  </script>
+</body>
+</html>
